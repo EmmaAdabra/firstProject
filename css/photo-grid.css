@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navigation bar styling */
+.nav-bar {
+  background-color:  rgb(129, 173, 253);
+  overflow: auto;
+  margin-bottom: 10px;
+  /* position: fixed;
+  width: 100%; */
+  /* border-bottom: 2px solid gray; */
+  /* border-radius: 5px; */
+}
+
+/* brand name styling */
+.nav-bar .brand-name {
+  float: left;
+  color: rgb(148, 31, 31);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  padding: 15px 20px;
+}
+
+.brand-name span {
+  color: rgb(165, 76, 12);
+  font-family: 'comic sans MC', sans-serif;
+}
+
+.brand-name #slogan {
+  color: rgb(34, 34, 53);
+  font: 700 12px cursive, "comic sans MS", sans-serif;
+  letter-spacing: 1.3px;
+}
+/* nav-menu bar styling */
+.nav-bar .nav-menu {
+  list-style: none;
+}
+
+.nav-bar .nav-menu li {
+  float: right;
+}
+
+.nav-bar .nav-menu li a {
+  color: #f2f2f2;
+  background:  rgb(4, 38, 71);
+  font: 700 13px arial;
+  text-decoration: none;
+  display: block;
+  padding: 30px 15px;
+}
+
+/* .nav-bar .nav-menu li a:last-child {
+  padding-right: 0;
+} */
+
+.nav-bar .nav-menu li a:hover {
+  color: #f3f3f3;
+  background: rgb(19, 127, 235);
+}
+
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+}
+
+/* img:hover{
+  background: hsla(4, 68%, 56%, 0.5); border: 2px solid brown;
+} */
